@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{57ee1e79-c776-492d-96bf-7bd4f5ba1f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{c351c8d0-e116-498e-bc97-edbaeffc816f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{6693623d-1e78-4bf5-b966-e58faad9d4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transform">
+      <UniqueIdentifier>{bca5dded-63ee-4d0c-b9ca-3734198af3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{b965e734-8915-452d-911b-6da108dac369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{d0d3f833-f118-41d0-bcce-b853eafd337a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader\Shaders">
+      <UniqueIdentifier>{c159c3d7-0605-40b8-85ea-eb9e5f33b9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{850265cc-1c03-477f-b9fb-efe707d1f03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights\Spotlight">
+      <UniqueIdentifier>{6640479a-87de-4ddf-9bdd-371ced50be0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights\PointLight">
+      <UniqueIdentifier>{083cb990-8ee4-40c6-8228-5eb1ebe0d933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{d58a72e0-e401-4539-bf6a-9ac1f8d81c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture">
+      <UniqueIdentifier>{063752d8-998f-461f-a116-d482beb45590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights\DirLight">
+      <UniqueIdentifier>{39ae6562-c28f-4b82-bbc0-4b4eaa121bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadows">
+      <UniqueIdentifier>{75a0c025-9e40-4330-ac78-0af1cd899105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadows\ShadowMap">
+      <UniqueIdentifier>{1b33f23a-7865-4227-8d56-8ba4cf0f1f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shadows\ShadowCube">
+      <UniqueIdentifier>{2a40b633-6866-46cc-be87-7d28b4693a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\KeyState">
+      <UniqueIdentifier>{5c42e5f8-b65b-4da1-a880-9737f93e34c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCarOld">
+      <UniqueIdentifier>{3b2fd665-d5ea-4717-852b-56911032a8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCar">
+      <UniqueIdentifier>{45556262-6322-4db8-959f-a12b008a1559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCar\PoliceCarEnums">
+      <UniqueIdentifier>{b28b6198-e977-4ee2-94e2-2bfc4d8bad09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCar\PoliceCarStruct">
+      <UniqueIdentifier>{147fd1a7-48ca-47a0-a69a-b17ce9982f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCar\PoliceCarModel">
+      <UniqueIdentifier>{0f1796d3-98f5-464d-8d63-50bd2b4d8f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCar\PoliceCarActive">
+      <UniqueIdentifier>{e3842891-aad9-4b15-a514-55d9a5c130f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\PoliceCar\PoliceCarFactory">
+      <UniqueIdentifier>{dfe83781-74f1-46c8-9817-2e7f0ebb7345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{e3e4c39b-4436-4c1e-89ef-1d5eb747d624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\PhysicsHelper">
+      <UniqueIdentifier>{49e8a63c-6df1-4fc7-85a2-0755ea55f2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\City">
+      <UniqueIdentifier>{6a5045f5-e007-4863-9cd7-e0e6103559de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\City\CityStructs">
+      <UniqueIdentifier>{375890fd-7392-4d8c-8808-611026c218e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\City\CityEnums">
+      <UniqueIdentifier>{dbd9ccf8-9e21-4b00-bbe6-c378d9ae5a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes">
+      <UniqueIdentifier>{8365d8e1-64af-411b-9629-3c4710e18b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes\CubeMesh">
+      <UniqueIdentifier>{e7f32810-de7e-4299-8bc9-738a7b5e3dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes\CylinderMesh">
+      <UniqueIdentifier>{04dcdf56-8b94-416f-9c36-a3f4f5c65a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes\WedgeMesh">
+      <UniqueIdentifier>{3a588705-0d11-4e45-8dae-9b949cb914ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Meshes\Mesh">
+      <UniqueIdentifier>{6117440c-b5b8-42e2-9048-1942bda16733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\CivilianCar">
+      <UniqueIdentifier>{ac657022-660e-4dc7-a278-fdf2cb9520ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\CivilianCar\CivilianCarEnums">
+      <UniqueIdentifier>{95a36595-5516-4dbb-b6da-500e4feb6e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\CivilianCar\CivilianCarStructs">
+      <UniqueIdentifier>{d8a8b3b0-d5d1-42f0-b5dd-87f2fec59f88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceCar.cpp">
+      <Filter>Source Files\Models\PoliceCarOld</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Source Files\Lights\Spotlight</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files\Lights\PointLight</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceCarLightType.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarEnums</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>Source Files\Meshes\CubeMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderMesh.cpp">
+      <Filter>Source Files\Meshes\CylinderMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glad\src\glad.c">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_setup.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DirLight.cpp">
+      <Filter>Source Files\Lights\DirLight</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files\Shadows\ShadowMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowCube.cpp">
+      <Filter>Source Files\Shadows\ShadowCube</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyState.cpp">
+      <Filter>Source Files\Application\KeyState</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceCarModel.cpp">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarModel</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceCarActive.cpp">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarActive</Filter>
+    </ClCompile>
+    <ClCompile Include="PoliceCarFactory.cpp">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="WedgeMesh.cpp">
+      <Filter>Source Files\Meshes\WedgeMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsHelper.cpp">
+      <Filter>Source Files\Physics\PhysicsHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="CityModel.cpp">
+      <Filter>Source Files\Models\City</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Meshes\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CivilianCarActive.cpp">
+      <Filter>Source Files\Models\CivilianCar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdateable.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCar.h">
+      <Filter>Source Files\Models\PoliceCarOld</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Source Files\Lights\Spotlight</Filter>
+    </ClInclude>
+    <ClInclude Include="LightProperties.h">
+      <Filter>Source Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Source Files\Lights\PointLight</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarMeshType.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPosition.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarMesh.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="FacePosition.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPosition.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.h">
+      <Filter>Source Files\Meshes\CubeMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderMesh.h">
+      <Filter>Source Files\Meshes\CylinderMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarPart.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarLight.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DirLight.h">
+      <Filter>Source Files\Lights\DirLight</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Source Files\Shadows\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowCube.h">
+      <Filter>Source Files\Shadows\ShadowCube</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapIndex.h">
+      <Filter>Source Files\Shadows\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowType.h">
+      <Filter>Source Files\Shadows\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowCubeIndex.h">
+      <Filter>Source Files\Shadows\ShadowCube</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyState.h">
+      <Filter>Source Files\Application\KeyState</Filter>
+    </ClInclude>
+    <ClInclude Include="BlinkerSide.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderType.h">
+      <Filter>Source Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarModel.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarModel</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarActive.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarActive</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarModelData.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarFactory.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="BakePassType.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="WedgeMesh.h">
+      <Filter>Source Files\Meshes\WedgeMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PoliceCarPartIndex.h">
+      <Filter>Source Files\Models\PoliceCar\PoliceCarEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowType.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsHelper.h">
+      <Filter>Source Files\Physics\PhysicsHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="CityModel.h">
+      <Filter>Source Files\Models\City</Filter>
+    </ClInclude>
+    <ClInclude Include="CityMeshData.h">
+      <Filter>Source Files\Models\City\CityStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingPartType.h">
+      <Filter>Source Files\Models\City\CityEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingMeshType.h">
+      <Filter>Source Files\Models\City\CityEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="CityPart.h">
+      <Filter>Source Files\Models\City\CityStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Source Files\Meshes\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCache.h">
+      <Filter>Source Files\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="CityTileType.h">
+      <Filter>Source Files\Models\City\CityEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMode.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarActive.h">
+      <Filter>Source Files\Models\CivilianCar</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarMeshType.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarPartIndex.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarEnums</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarMeshData.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarPart.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarMesh.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarLight.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarStructs</Filter>
+    </ClInclude>
+    <ClInclude Include="CivilianCarLightType.h">
+      <Filter>Source Files\Models\CivilianCar\CivilianCarEnums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phong.vert">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="phong.frag">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="shadow_map.vert">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="shadow_map.frag">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="shadow_cube.vert">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="shadow_cube.frag">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="shadow_cube.geom">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="xray.vert">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+    <None Include="xray.frag">
+      <Filter>Source Files\Shader\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\grid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
