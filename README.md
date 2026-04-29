@@ -2,6 +2,11 @@
 
 ## Necesita GLFW, GLAD si GLM
 
+### Video-uri:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1hn5icpoHRw?si=FDi3cd3mQCag3wuD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Imagini
 <img width="784" height="584" alt="CarImage3" src="https://github.com/user-attachments/assets/b9700059-01e1-435a-a574-7dddf9fdb83c" />
 <img width="789" height="589" alt="CarImage2" src="https://github.com/user-attachments/assets/1659e675-1a89-4e37-94af-844050c49243" />
 <img width="1890" height="977" alt="CarImage1" src="https://github.com/user-attachments/assets/a33e3825-7da9-4d89-b383-25d073d1b4f7" />
