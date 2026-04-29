@@ -4,7 +4,7 @@
 
 ### Video-uri:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1hn5icpoHRw?si=FDi3cd3mQCag3wuD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=8tlZKx5QGu4">Test lightbar</a>
 
 ### Imagini
 <img width="784" height="584" alt="CarImage3" src="https://github.com/user-attachments/assets/b9700059-01e1-435a-a574-7dddf9fdb83c" />
