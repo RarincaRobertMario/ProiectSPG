@@ -20,17 +20,7 @@ public:
     * 
     * @param shader Weak pointer t the shader used.
     */
-    void Initialize(const std::weak_ptr<Shader>& shader)
-    {
-        if (sharedModelData)
-        {
-            return;
-        }
-
-        sharedModelData = std::make_shared<PoliceCarModelData>();
-
-        PoliceCarModel builder(shader, sharedModelData);
-    }
+    void Initialize(const std::weak_ptr<Shader>& shader);
 
     /**
     * @brief Spawns a model.
@@ -39,10 +29,7 @@ public:
     * 
     * @return Shared pointer to the model.
     */
-    std::shared_ptr<PoliceCarModel> SpawnModel(const Transform& t = {})
-    {
-        return std::make_shared<PoliceCarModel>(sharedModelData, t);
-    }
+    std::shared_ptr<PoliceCarModel> SpawnModel(const Transform& t = {});
 
     /**
     * @brief Spawns the main controllable police car.
@@ -52,10 +39,7 @@ public:
     * 
     * @return Shared pointer to the 'active' police car.
     */
-    std::shared_ptr<PoliceCarActive> SpawnPlayerCar(const std::weak_ptr<Shader>& shader, const Transform& t = {})
-    {
-        auto player = std::make_shared<PoliceCarActive>(shader, t);
-        return player;
-    }
+    std::shared_ptr<PoliceCarActive> SpawnPlayerCar(const std::weak_ptr<Shader>& shader, const Transform& t = {});
 };
+
 #endif // POLICECARFACTORY_H_
