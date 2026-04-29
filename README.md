@@ -5,6 +5,10 @@
 ### Video-uri:
 
 <a href="https://www.youtube.com/watch?v=8tlZKx5QGu4">Test lightbar</a>
+<a href="https://www.youtube.com/watch?v=FiNfaLVDeDA">Test camera si fullbright</a>
+<a href="https://www.youtube.com/watch?v=ovdFbMnujsA">Test backlights</a>
+<a href="https://www.youtube.com/watch?v=mpZRJvIB7vM">Test front lights</a>
+<a href="https://www.youtube.com/watch?v=1hn5icpoHRw">Test drivng</a>
 
 ### Imagini
 <img width="784" height="584" alt="CarImage3" src="https://github.com/user-attachments/assets/b9700059-01e1-435a-a574-7dddf9fdb83c" />
