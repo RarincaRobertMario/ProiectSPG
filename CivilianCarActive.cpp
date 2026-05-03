@@ -1307,7 +1307,7 @@ glm::ivec2 CivilianCarActive::FindFleeTarget(glm::ivec2 playerGrid, const std::v
                 float alignment = glm::dot(currentDir, dirToTile);
 
                 // If the tile is behind us, reduce the score
-                float alignmentMultiplier = (alignment < 0.0f) ? 0.2f : 1.0f;
+                float alignmentMultiplier = (alignment <= 0.0f) ? 0.2f : 1.0f;
 
                 // Add a bit of bonus for being straight ahead
                 float score = (distToPlayer * alignmentMultiplier) + (alignment * 5.0f);
