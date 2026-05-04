@@ -145,7 +145,7 @@ std::vector<std::vector<CityTileType>> CityModel::GenerateCity(const std::weak_p
     }
 
     // Auto-tilling
-    auto finalMatrix = matrix;
+    auto& finalMatrix = matrix;
 
     // Checks if a tile is a road
     auto IsRoad = [&](int r, int c) {

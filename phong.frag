@@ -254,7 +254,7 @@ float ShadowCalculation(sampler2D shadowMap, vec4 fragPosLightSpace, float NdotL
 {
     // Get the projection coordinates
     vec3 projCoords = fragPosLightSpace.xyz / fragPosLightSpace.w;
-    projCoords = projCoords * 0.5 + 0.5;
+    projCoords = projCoords * 0.5 + 0.5; // [-1,1] -> [0,1]
 
     // If we are 'out' of the shadow map, no shadow
     if(projCoords.z > 1.0)
@@ -267,18 +267,18 @@ float ShadowCalculation(sampler2D shadowMap, vec4 fragPosLightSpace, float NdotL
         return 0.0;
     }
 
+    // Get the texel size
+    vec2 texelSize = 1.0 / textureSize(shadowMap, 0);
+
     // Apply a small offset to prevent moire (shadow acne)
     float offsetScale = 0.05;
-    vec2 offset = normal.xz * (1.0 - NdotL) * offsetScale * (1.0 / textureSize(shadowMap, 0));
+    vec2 offset = normal.xz * (1.0 - NdotL) * offsetScale * texelSize;
     
     // Calculate bias
     float bias = max(0.0003 * (1.0 - NdotL), 0.0003);
 
     // Get the depth of the projection
     float currentDepth = projCoords.z;
-
-    // Get the texel size
-    vec2 texelSize = 1.0 / textureSize(shadowMap, 0);
 
     float shadow = 0.0;
 
